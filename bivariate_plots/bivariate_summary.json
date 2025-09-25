@@ -1,0 +1,261 @@
+{
+  "detected_score_col": "test_score",
+  "numeric_cols": [
+    "age",
+    "study_hours_per_week",
+    "attendance_rate",
+    "prior_gpa_10pt",
+    "test_score"
+  ],
+  "scatter_results": {
+    "study_hours_per_week_vs_test_score": {
+      "n": 199,
+      "r": -0.05563054043413218,
+      "p": 0.43514004676594153
+    },
+    "prior_gpa_10pt_vs_test_score": {
+      "n": 200,
+      "r": 0.15850917349291466,
+      "p": 0.024974343319891214
+    },
+    "attendance_rate_vs_test_score": {
+      "n": 203,
+      "r": 0.035784406316102746,
+      "p": 0.6122507408043589
+    }
+  },
+  "box_results": {
+    "test_score_by_has_internet": {
+      "groups": [
+        "N",
+        "No",
+        "Unknown",
+        "Y",
+        "Yes",
+        "no",
+        "yes"
+      ],
+      "summary": [
+        {
+          "__group__": "N",
+          "count": 32,
+          "mean": 74.009375,
+          "median": 71.25,
+          "std": 15.993110600929024
+        },
+        {
+          "__group__": "No",
+          "count": 30,
+          "mean": 67.42333333333333,
+          "median": 71.15,
+          "std": 19.06901591105561
+        },
+        {
+          "__group__": "Unknown",
+          "count": 23,
+          "mean": 67.69130434782609,
+          "median": 73.9,
+          "std": 17.83591659962046
+        },
+        {
+          "__group__": "Y",
+          "count": 34,
+          "mean": 78.59705882352942,
+          "median": 77.15,
+          "std": 19.316965149901147
+        },
+        {
+          "__group__": "Yes",
+          "count": 24,
+          "mean": 72.7375,
+          "median": 69.4,
+          "std": 14.438830872218215
+        },
+        {
+          "__group__": "no",
+          "count": 26,
+          "mean": 63.58076923076923,
+          "median": 66.8,
+          "std": 19.789735101426075
+        },
+        {
+          "__group__": "yes",
+          "count": 30,
+          "mean": 71.02333333333333,
+          "median": 69.3,
+          "std": 13.982074320316375
+        }
+      ]
+    },
+    "test_score_by_gender": {
+      "groups": [
+        "",
+        "F",
+        "FEMALE",
+        "Female",
+        "M",
+        "Male",
+        "Other",
+        "Prefer not to say",
+        "male"
+      ],
+      "summary": [
+        {
+          "__group__": "",
+          "count": 25,
+          "mean": 73.464,
+          "median": 74.7,
+          "std": 15.764143913747217
+        },
+        {
+          "__group__": "F",
+          "count": 20,
+          "mean": 73.33500000000001,
+          "median": 75.65,
+          "std": 15.612993070887429
+        },
+        {
+          "__group__": "FEMALE",
+          "count": 19,
+          "mean": 67.80526315789473,
+          "median": 70.8,
+          "std": 14.125842106036668
+        },
+        {
+          "__group__": "Female",
+          "count": 32,
+          "mean": 73.715625,
+          "median": 77.05000000000001,
+          "std": 24.751944978969536
+        },
+        {
+          "__group__": "M",
+          "count": 30,
+          "mean": 71.22,
+          "median": 71.0,
+          "std": 11.872262660910733
+        },
+        {
+          "__group__": "Male",
+          "count": 19,
+          "mean": 75.61052631578947,
+          "median": 70.0,
+          "std": 19.988799495296306
+        },
+        {
+          "__group__": "Other",
+          "count": 17,
+          "mean": 62.9764705882353,
+          "median": 68.9,
+          "std": 22.55162215373222
+        },
+        {
+          "__group__": "Prefer not to say",
+          "count": 17,
+          "mean": 70.04705882352941,
+          "median": 70.9,
+          "std": 12.554636476570062
+        },
+        {
+          "__group__": "male",
+          "count": 21,
+          "mean": 68.7,
+          "median": 68.7,
+          "std": 15.679700252236964
+        }
+      ]
+    },
+    "test_score_by_parental_education": {
+      "groups": [
+        "High School",
+        "PhD",
+        "Postgrad",
+        "Undergrad",
+        "Unknown"
+      ],
+      "summary": [
+        {
+          "__group__": "High School",
+          "count": 30,
+          "mean": 78.15333333333334,
+          "median": 74.5,
+          "std": 20.208836123618408
+        },
+        {
+          "__group__": "PhD",
+          "count": 34,
+          "mean": 67.69411764705882,
+          "median": 67.4,
+          "std": 20.084970125828836
+        },
+        {
+          "__group__": "Postgrad",
+          "count": 37,
+          "mean": 70.72162162162162,
+          "median": 71.7,
+          "std": 14.748881975238653
+        },
+        {
+          "__group__": "Undergrad",
+          "count": 30,
+          "mean": 70.94333333333334,
+          "median": 69.1,
+          "std": 16.592118680230403
+        },
+        {
+          "__group__": "Unknown",
+          "count": 26,
+          "mean": 70.04230769230769,
+          "median": 71.4,
+          "std": 15.036041316168907
+        }
+      ]
+    },
+    "test_score_by_device_type": {
+      "groups": [
+        "Desktop",
+        "Laptop",
+        "Mobile",
+        "Tablet",
+        "laptop"
+      ],
+      "summary": [
+        {
+          "__group__": "Desktop",
+          "count": 27,
+          "mean": 69.42592592592592,
+          "median": 67.4,
+          "std": 14.571352099043589
+        },
+        {
+          "__group__": "Laptop",
+          "count": 29,
+          "mean": 67.70689655172414,
+          "median": 71.1,
+          "std": 20.591501905857093
+        },
+        {
+          "__group__": "Mobile",
+          "count": 45,
+          "mean": 62.98,
+          "median": 65.5,
+          "std": 17.534674738409556
+        },
+        {
+          "__group__": "Tablet",
+          "count": 37,
+          "mean": 74.84594594594596,
+          "median": 74.0,
+          "std": 20.488988839463595
+        },
+        {
+          "__group__": "laptop",
+          "count": 32,
+          "mean": 78.159375,
+          "median": 77.19999999999999,
+          "std": 14.617176360640402
+        }
+      ]
+    }
+  }
+}
